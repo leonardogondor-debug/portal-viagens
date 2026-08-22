@@ -1,0 +1,45 @@
+<--Objetivo
+Desenvolver uma aplicação em Next.js que simule um pequeno portal de viagens. A ideia é listar destinos turísticos e permitir que o usuário visualize informações detalhadas sobre cada destino em páginas individuais. O projeto deve aplicar os conceitos de rotas baseadas em arquivos, rotas dinâmicas, uso de componentes e estilização com CSS Modules.
+
+Requisitos
+1. Estrutura do Projeto
+
+Iniciar o projeto com npx create-next-app@latest.
+
+Criar uma estrutura de pastas clara e organizada, separando componentes, páginas e estilos.
+
+2. Páginas
+
+Página inicial (/): breve apresentação do portal e link para a listagem de destinos.
+
+Página /destinos: exibe uma listagem de destinos turísticos (mínimo de 4).
+
+3. Componentes
+
+CardDestino: exibe o nome e uma imagem do destino na listagem.
+
+Layout: componente para organização comum das páginas (com header e footer reutilizável).
+
+4. Estilização
+
+Utilizar CSS Modules para estilizar os componentes.
+
+Aplicar boas práticas de design visual (cores harmônicas, espaçamento adequado, fontes legíveis).
+
+5. Navegação
+
+Criar um menu de navegação entre as páginas usando next/link.
+
+O menu deve estar presente em todas as páginas via componente Layout.
+
+Entrega
+Subir o projeto em um repositório público no GitHub.
+
+O projeto deve estar funcional e conter os arquivos .tsx e .ts.
+
+Compartilhar o link do repositório conforme instruções na plataforma.
+
+Dicas
+Crie um array local simulando os dados dos destinos com campos como: id, nome, imagem, descricao.
+
+Use map() para renderizar a listagem dos destinos com o componente CardDestino.-->
