@@ -4,12 +4,13 @@ import Layout from "../../components/Layout";
 const destinos: Destino[] = [
     { id:"1", nome: "Chernobyl", imagem: "/chernobyl.jpg", descricao: "Uma cidade energizante."},
     { id:"2", nome: "Silent Hill", imagem: "/silent.jpg", descricao: "Uma cidade com uma bela neblina."},
-    { id:"3", nome: "Reccoon City", imagem: "/reccoon.jpeg", descricao: "Uma cidade explosiva."},
+    { id:"3", nome: "Reccoon City", imagem: "/raccoon.jpeg", descricao: "Uma cidade explosiva."},
     { id:"4", nome: "Gotham City", imagem: "/Gotham.jpg", descricao: "Uma cidade muito sigura."},
 ];
 
-export default function DestinoDetalhe({ params }: { params: { id: string } }) {
-    const destino = destinos.find(d => d.id === params.id);
+export default async function DestinoDetalhe({ params }: { params: Promise<{ id: string }> }) {
+    const { id } = await params;
+    const destino = destinos.find(d => d.id === id);
 
     if (!destino) return <p>Destino não encontrado!</p>;
 
