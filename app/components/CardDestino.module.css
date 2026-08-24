@@ -1,0 +1,14 @@
+.card {
+    border-radius: 2rem;
+    border: 5px solid rgb(43, 90, 179);
+    width: 100%;
+    margin: 0.5rem;
+}
+
+.image {
+    border-top-left-radius: 1.6rem;
+    border-top-right-radius: 1.6rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}

@@ -1,11 +1,12 @@
 import { Destino } from "../../types/Destino";
 import Layout from "../../components/Layout";
 
+
 const destinos: Destino[] = [
     { id:"1", nome: "Chernobyl", imagem: "/chernobyl.jpg", descricao: "Uma cidade energizante."},
     { id:"2", nome: "Silent Hill", imagem: "/silent.jpg", descricao: "Uma cidade com uma bela neblina."},
-    { id:"3", nome: "Reccoon City", imagem: "/raccoon.jpeg", descricao: "Uma cidade explosiva."},
-    { id:"4", nome: "Gotham City", imagem: "/Gotham.jpg", descricao: "Uma cidade muito sigura."},
+    { id:"3", nome: "Raccoon City", imagem: "/raccoon.jpeg", descricao: "Uma cidade explosiva."},
+    { id:"4", nome: "Gotham City", imagem: "/Gotham.jpg", descricao: "Uma cidade muito sgura."},
 ];
 
 export default async function DestinoDetalhe({ params }: { params: Promise<{ id: string }> }) {
@@ -17,7 +18,7 @@ export default async function DestinoDetalhe({ params }: { params: Promise<{ id:
     return (
         <Layout>
             <h1>{destino.nome}</h1>
-            <img src={destino.imagem} alt={destino.nome} width={400} />
+            <img src={destino.imagem} alt={destino.nome} />
             <p>{destino.descricao}</p>
         </Layout>
     );

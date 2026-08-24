@@ -1,6 +1,6 @@
 export interface Destino {
     id: string;
-    nome: string:
+    nome: string;
     imagem: string;
     descricao: string;
 }
