@@ -12,8 +12,8 @@ const destinos: Destino[] = [
 export default function Destinos() {
     return (
         <Layout>
-            <h1 className="text-4xl mb-5">Destinos Turisticos</h1>
-            <div>
+            <h1 className="text-4xl mb-10">Destinos Turisticos</h1>
+            <div className="grid grid-cols-2 lg:grid-cols-4">
                 {destinos.map(destino => (
                     <CardDestino key={destino.id} destino={destino} />
                 ))}
