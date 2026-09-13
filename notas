@@ -1,0 +1,61 @@
+Objetivo
+Colocar em prática os conhecimentos adquiridos sobre performance web, identificando gargalos e aplicando melhorias em um projeto front-end existente. O foco será medir, analisar e otimizar com base em métricas concretas, utilizando o Chrome DevTools (aba Performance e/ou Lighthouse) como principal recurso. Se o projeto estiver publicado online, o aluno também poderá complementar a análise com o PageSpeed Insights. Além da medição, a tarefa exige a aplicação de técnicas de boas práticas de otimização trabalhadas em aula, garantindo não apenas a melhoria nos números, mas também uma experiência de usuário mais rápida e estável.
+
+Requisitos
+1. Escolha do Projeto
+
+Utilize um projeto que você já desenvolveu durante o curso
+
+Caso prefira, use um projeto pessoal.
+
+2. Análise Inicial com Lighthouse
+
+Gere um relatório inicial na aba Performance ou Lighthouse utilizando o Chrome DevTools.
+
+Registre prints das pontuações iniciais.
+
+Aponte os gargalos encontrados (ex.: imagens pesadas, requisições desnecessárias, JavaScript bloqueando a renderização). 
+
+3. Otimizações Obrigatórias
+
+Imagens: Utilize formatos otimizados como .webp ou .avif, redimensione e aplique o atributo loading="lazy" onde necessário.
+
+HTML/CSS/JS: Aplicar minificação.
+
+Código: Remover trechos não utilizados (imports, funções, estilos não aplicados).
+
+Imports: Preferir versões enxutas de bibliotecas quando aplicável.
+
+4. Reanálise e Comparação
+
+Gere um novo relatório aba Performance ou Lighthouse após aplicar as melhorias.
+
+Compare os resultados e inclua um breve resumo das melhorias que trouxeram maior impacto.
+
+Documente no README os resultados obtidos e quais técnicas trouxeram maior impacto.
+
+Entrega
+Crie um repositório público no GitHub com: 
+
+O código-fonte do projeto otimizado.
+
+Dois relatórios (antes e depois) em PDF ou imagens.
+
+Um arquivo README.md com: 
+
+Breve descrição do projeto.
+
+Gargalos identificados.
+
+Melhorias aplicadas.
+
+Comparativo antes/depois com prints e comentários.
+
+Compartilhe o link do repositório conforme as instruções da plataforma.
+
+Dicas
+Explore as abas “Performance” e “Lighthousr” das DevTools para analisar tempos de carregamento e gargalos.
+
+Tente simular rede 3G ou 4G para observar o comportamento do site em conexões mais lentas.
+
+Use PageSpeed Insights como alternativa ao Lighthouse no Chrome se o projeto estiver no ar.
