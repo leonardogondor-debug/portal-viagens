@@ -1,12 +1,12 @@
 import { Destino } from "../../types/Destino";
-import Layout from "../../components/Layout";
+import Layout from "../../components/layout";
 
 
 const destinos: Destino[] = [
     { id:"1", nome: "Chernobyl", imagem: "/chernobyl.jpg", descricao: "Uma cidade energizante."},
     { id:"2", nome: "Silent Hill", imagem: "/silent.jpg", descricao: "Uma cidade com uma bela neblina."},
     { id:"3", nome: "Raccoon City", imagem: "/raccoon.jpeg", descricao: "Uma cidade explosiva."},
-    { id:"4", nome: "Gotham City", imagem: "/Gotham.jpg", descricao: "Uma cidade muito segura."},
+    { id:"4", nome: "Gotham City", imagem: "/gotham.jpg", descricao: "Uma cidade muito segura."},
 ];
 
 export default async function DestinoDetalhe({ params }: { params: Promise<{ id: string }> }) {
