@@ -14,7 +14,7 @@ export default function Destinos() {
         <Layout>
             <h1 className="text-4xl mb-10">Destinos Turisticos</h1>
             <div className="grid grid-cols-2 lg:grid-cols-4">
-                {destinos.map(destino => (
+                {destinos.map((destino: Destino) => (
                     <CardDestino key={destino.id} destino={destino} />
                 ))}
             </div>

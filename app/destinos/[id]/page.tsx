@@ -21,7 +21,7 @@ export default async function DestinoDetalhe({ params }: { params: Promise<{ id:
                 <h1 className="text-4xl mb-2">{destino.nome}</h1>
                 <img src={destino.imagem} alt={destino.nome} className="w-full" />
                 // otimização de descrição
-                {destino.descricao.map((paragrafo, i) => (
+                {destino.descricao.map((paragrafo: string, i: number) => (
                     <p key={i} className="text-2xl mt-2">{paragrafo}</p>
                 ))}
             </div>
