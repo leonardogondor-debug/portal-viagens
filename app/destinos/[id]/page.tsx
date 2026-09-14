@@ -1,5 +1,6 @@
 import { Destino } from "../../types/Destino";
 import Layout from "../../components/layout";
+import Image from "next/image";
 
 
 const destinos: Destino[] = [
@@ -19,8 +20,9 @@ export default async function DestinoDetalhe({ params }: { params: Promise<{ id:
         <Layout>
             <div className="h-full">
                 <h1 className="text-4xl mb-2">{destino.nome}</h1>
-                <img src={destino.imagem} alt={destino.nome} className="w-full" />
-                // otimização de descrição
+                {/*otimização de imagem para melhor CLS*/}
+                <Image src={destino.imagem} alt={destino.nome} className="w-full" width={1200} height={800} priority/>
+                {/*otimização de descrição */}
                 {destino.descricao.map((paragrafo: string, i: number) => (
                     <p key={i} className="text-2xl mt-2">{paragrafo}</p>
                 ))}
