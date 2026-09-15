@@ -6,22 +6,22 @@ Projeto feito para aplicar tecnicas de **performance web** e otimizacao de front
 Relatorio Lighthouse antes das otimizacoes:
 
 home
-- Permormance:
-- Acessibilidade:
-- Boas praticas:
-- SEO: 
+- Permormance: 100, 98 (com 4g lento), 71 (com 3g)
+- Acessibilidade: 100, 98 (com 4g lento), 100 (com 3g)
+- Boas praticas: 100, 98 (com 4g lento), 100 (com 3g)
+- SEO: 50
 
 destinos
-- Permormance:
-- Acessibilidade:
-- Boas praticas:
-- SEO:
+- Permormance: 99, 96 (com 4g lento), 66 (com 3g)
+- Acessibilidade: 100, 100 (com 4g lento), 100 (com 3g)
+- Boas praticas: 100, 100 (com 4g lento), 100 (com 3g)
+- SEO: 54
 
 detalhes do destino
-- Permormance:
-- Acessibilidade:
-- Boas praticas:
-- SEO:
+- Permormance: 87, 85 (com 4g lento), 65 (com 3g)
+- Acessibilidade: 100, 100 (com 4g lento), 100 (com 3g)
+- Boas praticas: 100, 100 (com 4g lento), 100 (com 3g)
+- SEO: 54
 
 ### Problemas encontrados
 - Imagens pesadas e sem otimizacao
@@ -39,22 +39,22 @@ detalhes do destino
 Relatorio Lighthouse depois das otimizacoes:
 
 home
-- Permormance:
-- Acessibilidade:
-- Boas praticas:
-- SEO: 
+- Permormance: 100, 98 (com 4g lento),  71(com 3g)
+- Acessibilidade: 100, 100(com 4g lento),  100(com 3g)
+- Boas praticas: 100, 100(com 4g lento),  100(com 3g)
+- SEO: 60
 
 destinos
-- Permormance:
-- Acessibilidade:
-- Boas praticas:
-- SEO:
+- Permormance: 100, 98 (com 4g lento),  71(com 3g)
+- Acessibilidade: 100, 100 (com 4g lento),  100(com 3g)
+- Boas praticas: 100, 100 (com 4g lento),  100(com 3g)
+- SEO: 63
 
 detalhes do destino
-- Permormance:
-- Acessibilidade:
-- Boas praticas:
-- SEO:
+- Permormance: 100, 97 (com 4g lento), 72 (com 3g)
+- Acessibilidade: 100, 100 (com 4g lento), 100 (com 3g)
+- Boas praticas: 100, 100 (com 4g lento), 100 (com 3g)
+- SEO: 63
 
 ### Comparativos
 Antes | Depois
