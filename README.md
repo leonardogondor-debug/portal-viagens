@@ -59,7 +59,7 @@ detalhes do destino
 ### Comparativos
 Antes | Depois
 
-![Print Antes](docs/lighthouse-antes.png) | ![Print Depois](docs/lighthouse-depois.png)
+![Print Antes](docs/antes) | ![Print Depois](docs/depois)
 
 ## Conclucao
 As mudancas que tiverem o maior impacto foram:
