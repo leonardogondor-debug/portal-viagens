@@ -4,6 +4,7 @@ Projeto feito para aplicar tecnicas de **performance web** e otimizacao de front
 
 ## Analise inicial
 Relatorio Lighthouse antes das otimizacoes:
+
 home
 - Permormance:
 - Acessibilidade:
@@ -36,6 +37,7 @@ detalhes do destino
 
 ## Resultado
 Relatorio Lighthouse depois das otimizacoes:
+
 home
 - Permormance:
 - Acessibilidade:
@@ -56,6 +58,7 @@ detalhes do destino
 
 ### Comparativos
 Antes | Depois
+
 ![Print Antes](docs/lighthouse-antes.png) | ![Print Depois](docs/lighthouse-depois.png)
 
 ## Conclucao
@@ -89,7 +92,7 @@ Rodar linter
 ```bash
 npm run lint
 ```
-## Repositori GitHub
+## Repositorio GitHub
 Acesse aqui:
 ```bash
 https://github.com/leonardogondor-debug/portal-viagens
