@@ -1,6 +1,4 @@
 import type { NextConfig } from "next";
-import { sources } from "next/dist/compiled/webpack/webpack";
-import { redirect } from "next/dist/server/api-utils";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
