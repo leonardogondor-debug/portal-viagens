@@ -68,24 +68,36 @@ As mudancas que tiverem o maior impacto foram:
 Instalar dependencias
 ```bash
 npm install
+```
 
 Rodar em ambiente de desenvolvimento 
 ```bash
-npm run dev
+npm run dev`
+```
 
 Gerar build de producao
 ```bash
 npm run build
+```
 
 Iniciar servidos em producao
 ```bash
 npm start
+```
 
 Rodar linter
+```bash
 npm run lint
+```
+## Repositori GitHub
+Acesse aqui:
+```bash
+https://github.com/leonardogondor-debug/portal-viagens
+```
 
 ## URL do codigo
 Acesse aqui:
 ```bash
 https://portal-viagens-s6ra-git-master-leo-vit.vercel.app/
+```
 
